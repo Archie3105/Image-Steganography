@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #967F93;
+    color: #fff;
+}
+header{
+    max-width: auto;
+    max-height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    font-size: 2rem;
+    font-weight: 600;
+    flex-direction: column
+}
+header div{
+    position: relative;
+   margin-top: 2rem;
+   font-size: 1.5rem;
+   width: 90vw;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   text-align: center;
+}
+.decodeSecLine{
+    font-size: 1.5rem;
+   width: auto;
+   justify-content: center;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+   font-weight: 600;
+   text-align: center;
+}
+.cont {
+    display: flex;
+    min-height: 75vh;
+    max-width: 90vw;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8vh;
+    margin: auto;
+    margin-bottom: 5vh;
+    border: 2px solid #fff;
+    box-shadow: 0 0 20px 2px black;
+    padding: 2rem;
+}
+.Encoded-img{
+    display: flex;
+    flex-direction: column;
+}
+#downloadButton{
+    padding: 0.6rem 0rem;
+    cursor: pointer;
+    border-radius: 2vh;
+    outline: none;
+    margin-top: 0.25rem;
+    font-size: medium;
+    background-color: #27352f;
+    color: #fff;
+}
+#downloadButton:hover{
+    background-color: #3f554b;
+}
+.img-cont {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* .inputImg{
+    margin-top: 10rem;
+} */
+.img1 {
+    justify-content: space-between;
+    margin: 0 2rem;
+    margin-bottom: 1rem;
+    max-width: 40vh;
+    max-height: 60vh;
+}
+
+img {
+    border: 2px solid light;
+    max-width: 30vh;
+    max-height: 40vh;
+}
+
+.inputButton{
+    max-width: 90%;
+}
+.primary{
+    max-width: 90%;
+}
+
+
+/* .opa {
+    opacity: 0;
+    width: 10px;
+} */
+.decode{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto 5rem ;
+    max-width: 80vw;
+    max-height: 60vh;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #fff;
+    box-shadow: 0 0 20px 2px black;
+    
+}
+.decode  .secondary{
+    max-width: 90%;
+    margin: 0.5rem;
+}
+.decoded{
+    /* margin: 0rem 0rem 10rem 0rem; */
+    max-width: 70vw;
+    max-height: 60vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
